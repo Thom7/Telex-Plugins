@@ -1,0 +1,9 @@
+[Core]
+Name = Roll
+Module = roll
+
+[Documentation]
+Author = Thomas Nikkels
+Version = 0.1
+Website = https://thomas.host/
+Description = Rolls a number or dice.
