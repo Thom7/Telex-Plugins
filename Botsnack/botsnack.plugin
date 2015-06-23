@@ -1,0 +1,9 @@
+[Core]
+Name = Botsnack
+Module = botsnack
+
+[Documentation]
+Author = Thomas Nikkels
+Version = 0.1
+Website = https://thomas.host/
+Description = Feeds the bot a snack.
