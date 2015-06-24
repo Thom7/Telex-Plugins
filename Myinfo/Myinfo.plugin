@@ -1,0 +1,9 @@
+[Core]
+Name = Myinfio
+Module = myinfo
+
+[Documentation]
+Author = Thomas Nikkels
+Version = 0.1
+Website = https://thomas.host/
+Description = Sets user info
