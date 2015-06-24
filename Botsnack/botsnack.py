@@ -2,9 +2,14 @@ import random
 from telex import plugin
 from telex.callbacks.msgreceived import command, expand
         
-class RollPlugin(plugin.TelexPlugin):       
+class RollPlugin(plugin.TelexPlugin):
+    def __init__(self):
+        self.well_fed = False
+
     @command('botsnack')
     @expand("^(\S+)")
     def feeding(self, *, bot, msg):
         response = ["Yum","Tasty"]
-        self.respond_to_msg(msg,(random.choice(response)))
+        if !self.well_fed:
+           self.respond_to_msg(msg,(random.choice(response)))
+           self.well_fed = True
